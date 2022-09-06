@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>python</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="header header_chapters">
+        <div class="container">
+            <div class="nav">
+                <ul class="menu"data-aos="fade-up">
+                    <li>
+                        <a href="index.html">
+							o python
+						</a>
+                    </li>
+                    <li>
+                        <a href="chapters.html">
+							главы
+						</a>
+                    </li>
+                    <li>
+                        <a href="game/game.html">
+							Game
+						</a>
+                    </li>
+                </ul>
+                <button class="menu-open">
+                    <img src="img/menu.svg" alt="menu">
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section id="about" class="about" data-aos="fade-up">
+        <div class="container">
+            <h2>Типы данных</h2>
+            <div class="about_urban">
+                <p>В Python'е существует несколько типов данных:</p>
+                <h3>1. Целые числа (int)</h3>
+                <p>Целые числа типа <em>int</em> (положительные и отрицательные) имеют неограниченную точность, могут принимать сколь угодно большие значения. Тип <em>int</em> являются неизменяемым объектом, выполняя операцию над целыми числами, вы получаете новый числовой объект</p>
+                <p>Они поддерживают набор самых обычных математических операций:</p>
+                <div class="gallery gallery_about poi">
+                    <img src="img/tip1.png" data-aos="fade-up">
+                </div>
+                <h3>2. Вещественные числа (float)</h3>
+                <p>Вещественные числа в Python моделируют действительные числа в математике. В отличие от целых чисел, вещественные числа имеют ограниченный диапазон и ограниченную точность.</p>
+                <p>Диапазон от 10−323 до 10+308. Если при расчётах получится меньшее число, то оно представляется как ноль, если большее — произойдёт ошибка переполнения. Точность ограничена ≈15 десятичными знаками после запятой.</p>
+                <p>Вещественные числа, в отличие от целых, всегда содержат или знак разделителя целой и дробной части (точку, .), или показатель степени (e). Разделителем целой и дробной части является точка, т.к. запятая используется для разделения параметров функции и при построении составных типов данных (массивы, кортежи и т.д.)</p>
+                <h3>3. Строки(str)</h3>
+                <p>Строка (str) представляет последовательность печатных знаков. Знаки, которые представляют строки в Python 3, являются символами Юникода, т.е. включают в себя буквы разных алфавитов, цифры, знаки препинания, иероглифы, пиктограммы, математические знаки и эмодзи. В противоположность, в Python 2.7 строки состояли из однобайтовых символов конкретной кодировки (например, кодировки Windows-1251 на Windows в русскоязычной локализации).</p>
+                <p>Строки — <b>неизменяемый тип данных</b>.</p>
+                <p>Строки записываются в одинарных '...' или двойных "..." кавычках. В каких кавычках записывать — это дело принятого стиля программирования. Чаще пишутся одинарные кавычки.</p>
+                <h3>4. Список (list)</h3>
+                <p><b>Список</b> — изменяемый контейнер значений, индексируемый целыми числами в диапазоне от 0 до некоторой величины — длины списка.</p>
+                <p>Литерал списка — элементы списка, перечисленные через запятую в квадратных скобках</p>
+                <p>Пример:</p>
+                <div class="gallery gallery_about poi">
+                    <img src="img/tip2.png" data-aos="fade-up">
+                </div>
+                <p>Это список из 7 значений, которые являются первыми 7 простыми числами.</p>
+                <h3>5. Словари (dict)</h3>
+                <p><b>Словарь</b> (<em>dict</em>) — контейнер, к элементам которого можно обращаться по ключам, например, строкам. Словарь хранит внутри себя пары значений в произвольном порядке. Первый элемент каждой пары называется ключом, второй — значением. Каждому ключу сопоставляется ровно одно значение — ключи повторяться не могут. А значения повторяться могут.</p>
+                <p>Словарь позволяет находить или изменять значение (второй компонент пары), зная её ключ. Синтаксис тот же, что и при индексации массива:</p>
+                <div class="gallery gallery_about poi">
+                    <img src="img/tip3.png" data-aos="fade-up">
+                </div>
+            </div>
+            <!-- 
+            <div class="gallery gallery_about poi qwe">
+               <img src="img/dowl6.png" data-aos="fade-up">
+            </div> -->
+        </div>
+    </section> 
+
+
+
+
+    <div class="container button_flex">
+       <a href="first.html"><button>Предыдущий</button></a>
+        <a href="tip.html"><button style="--d: 20px;--b:.08em;--c:#42E695">Следующий</button></a>
+    </div>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <p>
+                    
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="main.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="ap.js"></script>
+</body>
+
+</html>
